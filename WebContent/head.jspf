@@ -1,0 +1,13 @@
+<%@ page language="java"
+    pageEncoding="UTF-8"%>
+<div class="menu">
+	<span>当前用户：
+		<a href="doShowMsg">${user.username}</a>
+	</span> 
+	<span>
+		<a href="doShowUsers">发短消息</a>
+	</span>
+	<span>
+		<a href="doExit">退出</a>
+	</span>
+</div>
