@@ -25,6 +25,7 @@ public class ShowMsgServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//1.获取当前下标页
 		String page = request.getParameter("page");
+//		System.out.println(page);
 		int pager = 1;//初始为第一页
 		if(page!=null&&!"".equals(page)){
 			pager = Integer.parseInt(page);
